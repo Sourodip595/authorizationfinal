@@ -6,5 +6,5 @@ Resources:
         TaskDefinition: "arn:aws:ecs:us-east-1:860061945305:task-definition/audit-authorization02-task:1"
         LoadBalancerInfo:
           ContainerName: "audit-authorization02"
-          ContainerPort: "9000"
+          ContainerPort: "7283"
         PlatformVersion: "LATEST"
