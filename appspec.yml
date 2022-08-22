@@ -3,8 +3,8 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:us-east-1:860061945305:task-definition/authorization7283-task-new:2"
+        TaskDefinition: "arn:aws:ecs:us-east-1:860061945305:task-definition/new-authorisation-task:1"
         LoadBalancerInfo:
-          ContainerName: "audit-authorization02"
-          ContainerPort: "7283"
+          ContainerName: "audit-authorizationfinal"
+          ContainerPort: "8100"
         PlatformVersion: "LATEST"
